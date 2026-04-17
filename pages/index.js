@@ -1,15 +1,52 @@
 export default function Home() {
   return (
-    <div style={{ fontFamily: "Arial, sans-serif", padding: "40px" }}>
-      <h1>PIV - Proyectos Inmobiliarios de Valor</h1>
-
+    <main style={{ padding: "40px", fontFamily: "Arial, sans-serif" }}>
+      
+      <h1>PIV</h1>
+      <h2>Desarrollamos proyectos inmobiliarios que generan valor real.</h2>
       <p>
-        En PIV desarrollamos proyectos inmobiliarios con enfoque en planeación,
-        ejecución y generación de valor real.
+        Planeación estratégica, ejecución disciplinada y resultados comprobados.
       </p>
 
-      <h2>Proyecto actual</h2>
-      <p><strong>Vallegrand</strong> – Xalisco, Nayarit</p>
+      <button style={{ marginBottom: "40px" }}>
+        Ver proyecto Vallegrand
+      </button>
+
+      <hr />
+
+      <h2>Resultados que respaldan nuestro trabajo</h2>
+      <ul>
+        <li>Primera etapa: 100% vendida</li>
+        <li>Segunda etapa: 90% de avance de obra</li>
+        <li>20% de la segunda etapa ya comercializada</li>
+      </ul>
+      <p>
+        En PIV no solo desarrollamos proyectos, construimos confianza.
+      </p>
+
+      <hr />
+
+      <h2>Vallegrand</h2>
+      <p>Xalisco, Nayarit</p>
+      <p>
+        Un desarrollo planeado para generar valor desde su concepción, con una
+        ejecución sólida y una respuesta positiva del mercado.
+      </p>
+
+      <button style={{ marginBottom: "40px" }}>
+        Conocer Vallegrand
+      </button>
+
+      <hr />
+
+      <h2>Sobre PIV</h2>
+      <p>
+        En PIV desarrollamos proyectos inmobiliarios con un enfoque claro:
+        generar valor real. Cada proyecto parte de una planeación estratégica,
+        se ejecuta con disciplina y se mide por sus resultados.
+      </p>
+
+      <hr />
 
       <h2>Contacto</h2>
       <p>Email: hola@piv.one</p>
@@ -17,11 +54,13 @@ export default function Home() {
       <p>WhatsApp: +52 311 108 1887</p>
 
       <a
-        href="https://wa.me/5213111081887?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20Vallegrand."
+        href="https://wa.me/523111081887"
         target="_blank"
+        style={{ display: "inline-block", marginTop: "10px" }}
       >
         Contactar por WhatsApp
       </a>
-    </div>
+
+    </main>
   );
 }
