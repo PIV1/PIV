@@ -39,8 +39,13 @@ export default function Home() {
       <p>Xalisco, Nayarit</p>
 
       <p>
-        Vallegrand es un desarrollo concebido bajo un enfoque de generación de valor desde su origen, combinando planeación estratégica, ejecución eficiente y una sólida aceptación comercial.
-      </p>
+<p>
+Vallegrand es un desarrollo de lotes urbanizados con fines habitacionales que consta de cuatro etapas, concebido bajo un enfoque de generación de valor desde su origen.
+</p>
+
+<p>
+El proyecto combina planeación estratégica, ejecución eficiente y una sólida aceptación comercial.
+</p>
 
       <p>
         Dentro de su segmento, el proyecto destaca por un estándar de calidad de obra por encima del promedio, lo que fortalece su posicionamiento y su potencial de valorización.
