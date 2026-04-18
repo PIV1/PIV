@@ -1,49 +1,68 @@
 export default function Home() {
   return (
     <main style={{ padding: "40px", fontFamily: "Arial, sans-serif" }}>
-      
+
       <h1>PIV</h1>
-      <h2>Desarrollamos proyectos inmobiliarios que generan valor real.</h2>
+      <h2>Desarrollamos proyectos inmobiliarios con enfoque en generación de valor y ejecución disciplinada.</h2>
       <p>
-        Planeación estratégica, ejecución disciplinada y resultados comprobados.
+        Identificamos oportunidades, estructuramos proyectos y los llevamos a ejecución con un objetivo claro: crear desarrollos sólidos con alto potencial de valorización.
       </p>
 
       <button style={{ marginBottom: "40px" }}>
-        Ver proyecto Vallegrand
+        Conocer proyecto Vallegrand
       </button>
 
       <hr />
 
-      <h2>Resultados que respaldan nuestro trabajo</h2>
+      <h2>Resultados que respaldan nuestra ejecución</h2>
+      <p>
+        Nuestro primer desarrollo, Vallegrand, valida nuestra capacidad de estructuración, ejecución y comercialización:
+      </p>
+
       <ul>
         <li>Primera etapa: 100% vendida</li>
         <li>Segunda etapa: 90% de avance de obra</li>
         <li>20% de la segunda etapa ya comercializada</li>
       </ul>
+
       <p>
-        En PIV no solo desarrollamos proyectos, construimos confianza.
+        Adicionalmente, Vallegrand se distingue por un estándar de calidad de obra superior al promedio dentro de su categoría, reflejando una ejecución cuidada en cada detalle.
+      </p>
+
+      <p>
+        Estos resultados reflejan una ejecución disciplinada, una propuesta sólida y una respuesta positiva del mercado.
       </p>
 
       <hr />
 
       <h2>Vallegrand</h2>
       <p>Xalisco, Nayarit</p>
+
       <p>
-        Un desarrollo planeado para generar valor desde su concepción, con una
-        ejecución sólida y una respuesta positiva del mercado.
+        Vallegrand es un desarrollo concebido bajo un enfoque de generación de valor desde su origen, combinando planeación estratégica, ejecución eficiente y una sólida aceptación comercial.
+      </p>
+
+      <p>
+        Dentro de su segmento, el proyecto destaca por un estándar de calidad de obra por encima del promedio, lo que fortalece su posicionamiento y su potencial de valorización.
+      </p>
+
+      <p>
+        Representa el primer proyecto de PIV y establece la base para el crecimiento y consolidación de futuros desarrollos.
       </p>
 
       <button style={{ marginBottom: "40px" }}>
-        Conocer Vallegrand
+        Conocer más
       </button>
 
       <hr />
 
       <h2>Sobre PIV</h2>
       <p>
-        En PIV desarrollamos proyectos inmobiliarios con un enfoque claro:
-        generar valor real. Cada proyecto parte de una planeación estratégica,
-        se ejecuta con disciplina y se mide por sus resultados.
+        PIV es una firma enfocada en el desarrollo de proyectos inmobiliarios con una visión clara: generar valor a través de la planeación, la ejecución y la disciplina operativa.
+      </p>
+
+      <p>
+        Cada proyecto es estructurado con un enfoque estratégico, priorizando su viabilidad, su potencial de valorización y su correcta ejecución en el tiempo.
       </p>
 
       <hr />
