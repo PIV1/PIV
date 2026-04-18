@@ -21,7 +21,7 @@ export default function Home() {
 
       <ul>
         <li>Primera etapa: 100% vendida</li>
-        <li>Segunda etapa: 90% de avance de obra</li>
+        <li>Segunda etapa: 100% urbanizada</li>
         <li>20% de la segunda etapa ya comercializada</li>
       </ul>
 
