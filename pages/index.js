@@ -73,24 +73,43 @@ export default function Home() {
             gap: "16px",
           }}
         >
-          <div>
-            <div
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "16px",
+            }}
+          >
+            <img
+              src="/logo-piv.png"
+              alt="Logotipo PIV"
               style={{
-                fontSize: "30px",
-                fontWeight: "700",
-                letterSpacing: "0.08em",
+                width: "64px",
+                height: "64px",
+                objectFit: "contain",
+                borderRadius: "12px",
               }}
-            >
-              PIV
-            </div>
-            <div
-              style={{
-                fontSize: "13px",
-                color: "#6b7280",
-                marginTop: "6px",
-              }}
-            >
-              Proyectos Inmobiliarios de Valor
+            />
+
+            <div>
+              <div
+                style={{
+                  fontSize: "30px",
+                  fontWeight: "700",
+                  letterSpacing: "0.08em",
+                }}
+              >
+                PIV
+              </div>
+              <div
+                style={{
+                  fontSize: "13px",
+                  color: "#6b7280",
+                  marginTop: "6px",
+                }}
+              >
+                Proyectos Inmobiliarios de Valor
+              </div>
             </div>
           </div>
 
@@ -289,94 +308,4 @@ export default function Home() {
               style={buttonPrimary}
             >
               Conocer más
-            </a>
-          </div>
-        </section>
-
-        <section id="nosotros" style={sectionStyle}>
-          <h2 style={{ fontSize: "32px", marginBottom: "10px" }}>Acerca de nosotros</h2>
-          <div style={cardStyle}>
-            <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#374151", marginTop: 0 }}>
-              PIV es una firma enfocada en el desarrollo de proyectos inmobiliarios con una visión clara: generar valor
-              a través de la planeación, la ejecución y la disciplina operativa.
-            </p>
-
-            <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#4b5563", marginBottom: 0 }}>
-              Cada proyecto es estructurado con un enfoque estratégico, priorizando su viabilidad, su potencial de
-              valorización y su correcta ejecución en el tiempo.
-            </p>
-          </div>
-        </section>
-
-        <section id="contacto" style={sectionStyle}>
-          <h2 style={{ fontSize: "32px", marginBottom: "10px" }}>Contacto</h2>
-
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
-              gap: "18px",
-              marginTop: "20px",
-            }}
-          >
-            <div style={cardStyle}>
-              <div style={{ fontSize: "14px", color: "#6b7280", marginBottom: "8px" }}>Correo</div>
-              <div style={{ fontSize: "18px", color: "#111827" }}>hola@piv.one</div>
-            </div>
-
-            <div style={cardStyle}>
-              <div style={{ fontSize: "14px", color: "#6b7280", marginBottom: "8px" }}>Teléfono</div>
-              <div style={{ fontSize: "18px", color: "#111827" }}>+52 311 466 9798</div>
-            </div>
-
-            <div style={cardStyle}>
-              <div style={{ fontSize: "14px", color: "#6b7280", marginBottom: "8px" }}>WhatsApp</div>
-              <div style={{ fontSize: "18px", color: "#111827" }}>+52 311 108 1887</div>
-            </div>
-
-            <div style={cardStyle}>
-              <div style={{ fontSize: "14px", color: "#6b7280", marginBottom: "8px" }}>Oficina</div>
-              <div style={{ fontSize: "17px", lineHeight: "1.8", color: "#111827" }}>
-                Av. Palomas #196
-                <br />
-                Col. Las Palomas
-                <br />
-                Xalisco, Nayarit
-              </div>
-            </div>
-          </div>
-
-          <a
-            href="https://wa.me/523111081887"
-            target="_blank"
-            rel="noreferrer"
-            style={buttonPrimary}
-          >
-            Contactar por WhatsApp
-          </a>
-        </section>
-
-        <footer
-          style={{
-            marginTop: "72px",
-            paddingTop: "28px",
-            borderTop: "1px solid #e5e7eb",
-            display: "flex",
-            justifyContent: "space-between",
-            flexWrap: "wrap",
-            gap: "14px",
-            fontSize: "14px",
-            color: "#6b7280",
-          }}
-        >
-          <div>PIV · Proyectos Inmobiliarios de Valor</div>
-          <div>
-            <a href="/privacidad" style={{ color: "#374151", textDecoration: "none" }}>
-              Aviso de Privacidad
-            </a>
-          </div>
-        </footer>
-      </div>
-    </main>
-  );
-}
+            </a
