@@ -133,7 +133,7 @@ export default function Home() {
               marginBottom: "20px",
             }}
           >
-            Desarrollo inmobiliario con enfoque institucional e inversión
+            Generamos valor para tu inversión
           </div>
 
           <h1
