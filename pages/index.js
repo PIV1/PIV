@@ -1,105 +1,339 @@
 export default function Home() {
+  const sectionStyle = {
+    marginTop: "56px",
+    paddingTop: "8px",
+  };
+
+  const cardStyle = {
+    backgroundColor: "#f7f7f5",
+    border: "1px solid #e5e7eb",
+    borderRadius: "18px",
+    padding: "24px",
+    marginTop: "20px",
+  };
+
+  const buttonPrimary = {
+    display: "inline-block",
+    backgroundColor: "#111827",
+    color: "#ffffff",
+    textDecoration: "none",
+    padding: "14px 22px",
+    borderRadius: "999px",
+    fontWeight: "600",
+    fontSize: "15px",
+    marginTop: "20px",
+    marginRight: "12px",
+  };
+
+  const buttonSecondary = {
+    display: "inline-block",
+    backgroundColor: "#ffffff",
+    color: "#111827",
+    textDecoration: "none",
+    padding: "14px 22px",
+    borderRadius: "999px",
+    fontWeight: "600",
+    fontSize: "15px",
+    border: "1px solid #d1d5db",
+    marginTop: "20px",
+  };
+
+  const statStyle = {
+    flex: "1 1 220px",
+    backgroundColor: "#ffffff",
+    border: "1px solid #e5e7eb",
+    borderRadius: "18px",
+    padding: "22px",
+  };
+
   return (
-    <main style={{ padding: "40px", fontFamily: "Arial, sans-serif" }}>
-
-      <h1>PIV</h1>
-      <h2>
-        Desarrollamos proyectos inmobiliarios con enfoque en generación de valor y ejecución disciplinada.
-      </h2>
-      <p>
-        Identificamos oportunidades, estructuramos proyectos y los llevamos a ejecución con un objetivo claro: crear desarrollos sólidos con alto potencial de valorización.
-      </p>
-
-      <button style={{ marginBottom: "40px" }}>
-        Conocer proyecto Vallegrand
-      </button>
-
-      <hr />
-
-      <h2>Resultados que respaldan nuestra ejecución</h2>
-      <p>
-        Nuestro primer desarrollo, Vallegrand, valida nuestra capacidad de estructuración, ejecución y comercialización en proyectos reales:
-      </p>
-
-      <ul>
-        <li>Primera etapa: 100% vendida</li>
-        <li>Segunda etapa: 100% urbanizada</li>
-        <li>20% de la segunda etapa ya comercializada</li>
-      </ul>
-
-      <p>
-        Adicionalmente, Vallegrand se distingue por un estándar de calidad de obra superior al promedio dentro de su categoría, reflejando una ejecución cuidada en cada detalle.
-      </p>
-
-      <p>
-        Estos resultados reflejan una ejecución disciplinada, una propuesta sólida y una respuesta positiva del mercado.
-      </p>
-
-      <hr />
-
-      <h2>Vallegrand</h2>
-      <p>Xalisco, Nayarit</p>
-
-      <p>
-        Vallegrand es un desarrollo de lotes urbanizados con fines habitacionales, estructurado en cuatro etapas y concebido bajo un enfoque de generación de valor desde su origen.
-      </p>
-
-      <p>
-        El proyecto combina planeación estratégica, ejecución eficiente y una sólida aceptación comercial.
-      </p>
-
-      <p>
-        Dentro de su segmento, el proyecto destaca por un estándar de calidad de obra por encima del promedio, lo que fortalece su posicionamiento y su potencial de valorización.
-      </p>
-
-      <p>
-        Representa el primer proyecto de PIV y establece la base para el crecimiento y consolidación de futuros desarrollos.
-      </p>
-
-      <button style={{ marginBottom: "40px" }}>
-        Conocer más
-      </button>
-
-      <hr />
-
-      <h2>Acerca de nosotros</h2>
-      <p>
-        PIV es una firma enfocada en el desarrollo de proyectos inmobiliarios con una visión clara: generar valor a través de la planeación, la ejecución y la disciplina operativa.
-      </p>
-
-      <p>
-        Cada proyecto es estructurado con un enfoque estratégico, priorizando su viabilidad, su potencial de valorización y su correcta ejecución en el tiempo.
-      </p>
-
-      <hr />
-
-      <h2>Contacto</h2>
-      <p>Email: hola@piv.one</p>
-      <p>Teléfono: +52 311 466 9798</p>
-      <p>WhatsApp: +52 311 108 1887</p>
-
-      <p style={{ marginTop: "20px" }}>
-        <strong>Oficina</strong><br />
-        Av. Palomas #196<br />
-        Col. Las Palomas<br />
-        Xalisco, Nayarit
-      </p>
-
-      <a
-        href="https://wa.me/523111081887"
-        target="_blank"
-        rel="noreferrer"
-        style={{ display: "inline-block", marginTop: "10px" }}
+    <main
+      style={{
+        fontFamily: "Arial, sans-serif",
+        backgroundColor: "#fcfcfb",
+        color: "#111827",
+        minHeight: "100vh",
+      }}
+    >
+      <div
+        style={{
+          maxWidth: "1080px",
+          margin: "0 auto",
+          padding: "36px 24px 72px",
+        }}
       >
-        Contactar por WhatsApp
-      </a>
+        <header
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            paddingBottom: "24px",
+            borderBottom: "1px solid #e5e7eb",
+          }}
+        >
+          <div>
+            <div
+              style={{
+                fontSize: "30px",
+                fontWeight: "700",
+                letterSpacing: "0.08em",
+              }}
+            >
+              PIV
+            </div>
+            <div
+              style={{
+                fontSize: "13px",
+                color: "#6b7280",
+                marginTop: "6px",
+              }}
+            >
+              Proyectos Inmobiliarios de Valor
+            </div>
+          </div>
 
-      <hr />
+          <nav style={{ fontSize: "14px", color: "#374151" }}>
+            <a href="#vallegrand" style={{ marginRight: "18px", color: "#374151", textDecoration: "none" }}>
+              Vallegrand
+            </a>
+            <a href="#nosotros" style={{ marginRight: "18px", color: "#374151", textDecoration: "none" }}>
+              Nosotros
+            </a>
+            <a href="#contacto" style={{ color: "#374151", textDecoration: "none" }}>
+              Contacto
+            </a>
+          </nav>
+        </header>
 
-      <p style={{ marginTop: "20px" }}>
-        <a href="/privacidad">Aviso de Privacidad</a>
-      </p>
+        <section
+          style={{
+            paddingTop: "64px",
+            paddingBottom: "24px",
+          }}
+        >
+          <div
+            style={{
+              display: "inline-block",
+              fontSize: "13px",
+              color: "#6b7280",
+              backgroundColor: "#f3f4f6",
+              padding: "8px 14px",
+              borderRadius: "999px",
+              marginBottom: "20px",
+            }}
+          >
+            Desarrollo inmobiliario con enfoque institucional e inversión
+          </div>
 
+          <h1
+            style={{
+              fontSize: "52px",
+              lineHeight: "1.08",
+              margin: "0 0 18px",
+              maxWidth: "900px",
+            }}
+          >
+            Desarrollamos proyectos inmobiliarios con enfoque en generación de valor y ejecución disciplinada.
+          </h1>
+
+          <p
+            style={{
+              fontSize: "20px",
+              lineHeight: "1.7",
+              color: "#4b5563",
+              maxWidth: "860px",
+              margin: 0,
+            }}
+          >
+            Identificamos oportunidades, estructuramos proyectos y los llevamos a ejecución con un objetivo claro:
+            crear desarrollos sólidos con alto potencial de valorización.
+          </p>
+
+          <div style={{ marginTop: "18px" }}>
+            <a href="https://www.vallegrand.com" target="_blank" rel="noreferrer" style={buttonPrimary}>
+              Conocer proyecto Vallegrand
+            </a>
+
+            <a href="#contacto" style={buttonSecondary}>
+              Contacto
+            </a>
+          </div>
+        </section>
+
+        <section style={sectionStyle}>
+          <h2 style={{ fontSize: "32px", marginBottom: "10px" }}>
+            Resultados que respaldan nuestra ejecución
+          </h2>
+          <p
+            style={{
+              fontSize: "18px",
+              lineHeight: "1.7",
+              color: "#4b5563",
+              maxWidth: "860px",
+            }}
+          >
+            Nuestro primer desarrollo, Vallegrand, valida nuestra capacidad de estructuración, ejecución y
+            comercialización en proyectos reales.
+          </p>
+
+          <div
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "18px",
+              marginTop: "24px",
+            }}
+          >
+            <div style={statStyle}>
+              <div style={{ fontSize: "30px", fontWeight: "700", marginBottom: "8px" }}>100%</div>
+              <div style={{ fontSize: "15px", color: "#4b5563", lineHeight: "1.6" }}>
+                Primera etapa vendida en su totalidad
+              </div>
+            </div>
+
+            <div style={statStyle}>
+              <div style={{ fontSize: "30px", fontWeight: "700", marginBottom: "8px" }}>100%</div>
+              <div style={{ fontSize: "15px", color: "#4b5563", lineHeight: "1.6" }}>
+                Segunda etapa urbanizada
+              </div>
+            </div>
+
+            <div style={statStyle}>
+              <div style={{ fontSize: "30px", fontWeight: "700", marginBottom: "8px" }}>20%</div>
+              <div style={{ fontSize: "15px", color: "#4b5563", lineHeight: "1.6" }}>
+                Segunda etapa ya comercializada
+              </div>
+            </div>
+          </div>
+
+          <div style={cardStyle}>
+            <p style={{ margin: 0, fontSize: "17px", lineHeight: "1.8", color: "#374151" }}>
+              Adicionalmente, Vallegrand se distingue por un estándar de calidad de obra superior al promedio dentro
+              de su categoría, reflejando una ejecución cuidada en cada detalle. Estos resultados expresan una
+              propuesta sólida, una respuesta positiva del mercado y una disciplina operativa consistente.
+            </p>
+          </div>
+        </section>
+
+        <section id="vallegrand" style={sectionStyle}>
+          <h2 style={{ fontSize: "32px", marginBottom: "8px" }}>Vallegrand</h2>
+          <p style={{ fontSize: "15px", color: "#6b7280", marginTop: 0 }}>Xalisco, Nayarit</p>
+
+          <div style={cardStyle}>
+            <p style={{ fontSize: "18px", lineHeight: "1.8", color: "#374151", marginTop: 0 }}>
+              Vallegrand es un desarrollo de lotes urbanizados con fines habitacionales, estructurado en cuatro etapas
+              y concebido bajo un enfoque de generación de valor desde su origen.
+            </p>
+
+            <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#4b5563" }}>
+              El proyecto combina planeación estratégica, ejecución eficiente y una sólida aceptación comercial.
+            </p>
+
+            <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#4b5563" }}>
+              Dentro de su segmento, destaca por un estándar de calidad de obra por encima del promedio, lo que
+              fortalece su posicionamiento y su potencial de valorización.
+            </p>
+
+            <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#4b5563", marginBottom: 0 }}>
+              Representa el primer proyecto de PIV y establece la base para el crecimiento y consolidación de futuros
+              desarrollos.
+            </p>
+
+            <a
+              href="https://www.vallegrand.com"
+              target="_blank"
+              rel="noreferrer"
+              style={buttonPrimary}
+            >
+              Conocer más
+            </a>
+          </div>
+        </section>
+
+        <section id="nosotros" style={sectionStyle}>
+          <h2 style={{ fontSize: "32px", marginBottom: "10px" }}>Acerca de nosotros</h2>
+          <div style={cardStyle}>
+            <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#374151", marginTop: 0 }}>
+              PIV es una firma enfocada en el desarrollo de proyectos inmobiliarios con una visión clara: generar valor
+              a través de la planeación, la ejecución y la disciplina operativa.
+            </p>
+
+            <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#4b5563", marginBottom: 0 }}>
+              Cada proyecto es estructurado con un enfoque estratégico, priorizando su viabilidad, su potencial de
+              valorización y su correcta ejecución en el tiempo.
+            </p>
+          </div>
+        </section>
+
+        <section id="contacto" style={sectionStyle}>
+          <h2 style={{ fontSize: "32px", marginBottom: "10px" }}>Contacto</h2>
+
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+              gap: "18px",
+              marginTop: "20px",
+            }}
+          >
+            <div style={cardStyle}>
+              <div style={{ fontSize: "14px", color: "#6b7280", marginBottom: "8px" }}>Correo</div>
+              <div style={{ fontSize: "18px", color: "#111827" }}>hola@piv.one</div>
+            </div>
+
+            <div style={cardStyle}>
+              <div style={{ fontSize: "14px", color: "#6b7280", marginBottom: "8px" }}>Teléfono</div>
+              <div style={{ fontSize: "18px", color: "#111827" }}>+52 311 466 9798</div>
+            </div>
+
+            <div style={cardStyle}>
+              <div style={{ fontSize: "14px", color: "#6b7280", marginBottom: "8px" }}>WhatsApp</div>
+              <div style={{ fontSize: "18px", color: "#111827" }}>+52 311 108 1887</div>
+            </div>
+
+            <div style={cardStyle}>
+              <div style={{ fontSize: "14px", color: "#6b7280", marginBottom: "8px" }}>Oficina</div>
+              <div style={{ fontSize: "17px", lineHeight: "1.8", color: "#111827" }}>
+                Av. Palomas #196
+                <br />
+                Col. Las Palomas
+                <br />
+                Xalisco, Nayarit
+              </div>
+            </div>
+          </div>
+
+          <a
+            href="https://wa.me/523111081887"
+            target="_blank"
+            rel="noreferrer"
+            style={buttonPrimary}
+          >
+            Contactar por WhatsApp
+          </a>
+        </section>
+
+        <footer
+          style={{
+            marginTop: "72px",
+            paddingTop: "28px",
+            borderTop: "1px solid #e5e7eb",
+            display: "flex",
+            justifyContent: "space-between",
+            flexWrap: "wrap",
+            gap: "14px",
+            fontSize: "14px",
+            color: "#6b7280",
+          }}
+        >
+          <div>PIV · Proyectos Inmobiliarios de Valor</div>
+          <div>
+            <a href="/privacidad" style={{ color: "#374151", textDecoration: "none" }}>
+              Aviso de Privacidad
+            </a>
+          </div>
+        </footer>
+      </div>
     </main>
   );
 }
