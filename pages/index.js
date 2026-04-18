@@ -3,7 +3,9 @@ export default function Home() {
     <main style={{ padding: "40px", fontFamily: "Arial, sans-serif" }}>
 
       <h1>PIV</h1>
-      <h2>Desarrollamos proyectos inmobiliarios con enfoque en generación de valor y ejecución disciplinada.</h2>
+      <h2>
+        Desarrollamos proyectos inmobiliarios con enfoque en generación de valor y ejecución disciplinada.
+      </h2>
       <p>
         Identificamos oportunidades, estructuramos proyectos y los llevamos a ejecución con un objetivo claro: crear desarrollos sólidos con alto potencial de valorización.
       </p>
@@ -16,7 +18,7 @@ export default function Home() {
 
       <h2>Resultados que respaldan nuestra ejecución</h2>
       <p>
-        Nuestro primer desarrollo, Vallegrand, valida nuestra capacidad de estructuración, ejecución y comercialización:
+        Nuestro primer desarrollo, Vallegrand, valida nuestra capacidad de estructuración, ejecución y comercialización en proyectos reales:
       </p>
 
       <ul>
@@ -39,13 +41,12 @@ export default function Home() {
       <p>Xalisco, Nayarit</p>
 
       <p>
-<p>
-Vallegrand es un desarrollo de lotes urbanizados con fines habitacionales que consta de cuatro etapas, concebido bajo un enfoque de generación de valor desde su origen.
-</p>
+        Vallegrand es un desarrollo de lotes urbanizados con fines habitacionales, estructurado en cuatro etapas y concebido bajo un enfoque de generación de valor desde su origen.
+      </p>
 
-<p>
-El proyecto combina planeación estratégica, ejecución eficiente y una sólida aceptación comercial.
-</p>
+      <p>
+        El proyecto combina planeación estratégica, ejecución eficiente y una sólida aceptación comercial.
+      </p>
 
       <p>
         Dentro de su segmento, el proyecto destaca por un estándar de calidad de obra por encima del promedio, lo que fortalece su posicionamiento y su potencial de valorización.
@@ -61,30 +62,7 @@ El proyecto combina planeación estratégica, ejecución eficiente y una sólida
 
       <hr />
 
-      <h2>Sobre PIV</h2>
+      <h2>Acerca de nosotros</h2>
       <p>
         PIV es una firma enfocada en el desarrollo de proyectos inmobiliarios con una visión clara: generar valor a través de la planeación, la ejecución y la disciplina operativa.
-      </p>
-
-      <p>
-        Cada proyecto es estructurado con un enfoque estratégico, priorizando su viabilidad, su potencial de valorización y su correcta ejecución en el tiempo.
-      </p>
-
-      <hr />
-
-      <h2>Contacto</h2>
-      <p>Email: hola@piv.one</p>
-      <p>Teléfono: +52 311 466 9798</p>
-      <p>WhatsApp: +52 311 108 1887</p>
-
-      <a
-        href="https://wa.me/523111081887"
-        target="_blank"
-        style={{ display: "inline-block", marginTop: "10px" }}
-      >
-        Contactar por WhatsApp
-      </a>
-
-    </main>
-  );
-}
+      </
