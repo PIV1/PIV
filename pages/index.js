@@ -65,4 +65,27 @@ export default function Home() {
       <h2>Acerca de nosotros</h2>
       <p>
         PIV es una firma enfocada en el desarrollo de proyectos inmobiliarios con una visión clara: generar valor a través de la planeación, la ejecución y la disciplina operativa.
-      </
+      </p>
+
+      <p>
+        Cada proyecto es estructurado con un enfoque estratégico, priorizando su viabilidad, su potencial de valorización y su correcta ejecución en el tiempo.
+      </p>
+
+      <hr />
+
+      <h2>Contacto</h2>
+      <p>Email: hola@piv.one</p>
+      <p>Teléfono: +52 311 466 9798</p>
+      <p>WhatsApp: +52 311 108 1887</p>
+
+      <a
+        href="https://wa.me/523111081887"
+        target="_blank"
+        style={{ display: "inline-block", marginTop: "10px" }}
+      >
+        Contactar por WhatsApp
+      </a>
+
+    </main>
+  );
+}
