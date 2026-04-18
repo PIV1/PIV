@@ -73,41 +73,33 @@ export default function Home() {
 
       <hr />
 
-     <h2>Contacto</h2>
+      <h2>Contacto</h2>
+      <p>Email: hola@piv.one</p>
+      <p>Teléfono: +52 311 466 9798</p>
+      <p>WhatsApp: +52 311 108 1887</p>
 
-<p>Email: hola@piv.one</p>
-<p>Teléfono: +52 311 466 9798</p>
-<p>WhatsApp: +52 311 108 1887</p>
+      <p style={{ marginTop: "20px" }}>
+        <strong>Oficina</strong><br />
+        Av. Palomas #196<br />
+        Col. Las Palomas<br />
+        Xalisco, Nayarit
+      </p>
 
-<p style={{ marginTop: "20px" }}>
-<strong>Oficina</strong><br />
-Av. Palomas #196<br />
-Col. Las Palomas<br />
-Xalisco, Nayarit
-</p>
-
-<a
-  href="https://wa.me/523111081887"
-  target="_blank"
-  style={{ display: "inline-block", marginTop: "10px" }}
->
-  Contactar por WhatsApp
-</a>
       <a
         href="https://wa.me/523111081887"
         target="_blank"
+        rel="noreferrer"
         style={{ display: "inline-block", marginTop: "10px" }}
       >
         Contactar por WhatsApp
       </a>
 
+      <hr />
+
+      <p style={{ marginTop: "20px" }}>
+        <a href="/privacidad">Aviso de Privacidad</a>
+      </p>
+
     </main>
   );
 }
-<hr />
-
-<p style={{ marginTop: "20px" }}>
-  <a href="/privacidad">
-    Aviso de Privacidad
-  </a>
-</p>
