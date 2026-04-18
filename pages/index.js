@@ -104,3 +104,10 @@ Xalisco, Nayarit
     </main>
   );
 }
+<hr />
+
+<p style={{ marginTop: "20px" }}>
+  <a href="/privacidad">
+    Aviso de Privacidad
+  </a>
+</p>
