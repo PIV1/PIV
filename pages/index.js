@@ -5,8 +5,8 @@ export default function Home() {
   };
 
   const cardStyle = {
-    backgroundColor: "#f7f7f5",
-    border: "1px solid #e5e7eb",
+    backgroundColor: "#f3f6f4",
+    border: "1px solid #dfe7e2",
     borderRadius: "18px",
     padding: "24px",
     marginTop: "20px",
@@ -14,7 +14,7 @@ export default function Home() {
 
   const buttonPrimary = {
     display: "inline-block",
-    backgroundColor: "#111827",
+    backgroundColor: "#1f3d2b",
     color: "#ffffff",
     textDecoration: "none",
     padding: "14px 22px",
@@ -28,20 +28,20 @@ export default function Home() {
   const buttonSecondary = {
     display: "inline-block",
     backgroundColor: "#ffffff",
-    color: "#111827",
+    color: "#1f3d2b",
     textDecoration: "none",
     padding: "14px 22px",
     borderRadius: "999px",
     fontWeight: "600",
     fontSize: "15px",
-    border: "1px solid #d1d5db",
+    border: "1px solid #cfd8d2",
     marginTop: "20px",
   };
 
   const statStyle = {
     flex: "1 1 220px",
     backgroundColor: "#ffffff",
-    border: "1px solid #e5e7eb",
+    border: "1px solid #dfe7e2",
     borderRadius: "18px",
     padding: "22px",
   };
@@ -69,6 +69,8 @@ export default function Home() {
             alignItems: "center",
             paddingBottom: "24px",
             borderBottom: "1px solid #e5e7eb",
+            flexWrap: "wrap",
+            gap: "16px",
           }}
         >
           <div>
@@ -93,13 +95,22 @@ export default function Home() {
           </div>
 
           <nav style={{ fontSize: "14px", color: "#374151" }}>
-            <a href="#vallegrand" style={{ marginRight: "18px", color: "#374151", textDecoration: "none" }}>
+            <a
+              href="#vallegrand"
+              style={{ marginRight: "18px", color: "#374151", textDecoration: "none" }}
+            >
               Vallegrand
             </a>
-            <a href="#nosotros" style={{ marginRight: "18px", color: "#374151", textDecoration: "none" }}>
+            <a
+              href="#nosotros"
+              style={{ marginRight: "18px", color: "#374151", textDecoration: "none" }}
+            >
               Nosotros
             </a>
-            <a href="#contacto" style={{ color: "#374151", textDecoration: "none" }}>
+            <a
+              href="#contacto"
+              style={{ color: "#374151", textDecoration: "none" }}
+            >
               Contacto
             </a>
           </nav>
@@ -115,8 +126,8 @@ export default function Home() {
             style={{
               display: "inline-block",
               fontSize: "13px",
-              color: "#6b7280",
-              backgroundColor: "#f3f4f6",
+              color: "#1f3d2b",
+              backgroundColor: "#e8f3ed",
               padding: "8px 14px",
               borderRadius: "999px",
               marginBottom: "20px",
@@ -150,7 +161,12 @@ export default function Home() {
           </p>
 
           <div style={{ marginTop: "18px" }}>
-            <a href="https://www.vallegrand.com" target="_blank" rel="noreferrer" style={buttonPrimary}>
+            <a
+              href="https://www.vallegrand.com"
+              target="_blank"
+              rel="noreferrer"
+              style={buttonPrimary}
+            >
               Conocer proyecto Vallegrand
             </a>
 
@@ -185,21 +201,48 @@ export default function Home() {
             }}
           >
             <div style={statStyle}>
-              <div style={{ fontSize: "30px", fontWeight: "700", marginBottom: "8px" }}>100%</div>
+              <div
+                style={{
+                  fontSize: "30px",
+                  fontWeight: "700",
+                  marginBottom: "8px",
+                  color: "#1f3d2b",
+                }}
+              >
+                100%
+              </div>
               <div style={{ fontSize: "15px", color: "#4b5563", lineHeight: "1.6" }}>
                 Primera etapa vendida en su totalidad
               </div>
             </div>
 
             <div style={statStyle}>
-              <div style={{ fontSize: "30px", fontWeight: "700", marginBottom: "8px" }}>100%</div>
+              <div
+                style={{
+                  fontSize: "30px",
+                  fontWeight: "700",
+                  marginBottom: "8px",
+                  color: "#1f3d2b",
+                }}
+              >
+                100%
+              </div>
               <div style={{ fontSize: "15px", color: "#4b5563", lineHeight: "1.6" }}>
                 Segunda etapa urbanizada
               </div>
             </div>
 
             <div style={statStyle}>
-              <div style={{ fontSize: "30px", fontWeight: "700", marginBottom: "8px" }}>20%</div>
+              <div
+                style={{
+                  fontSize: "30px",
+                  fontWeight: "700",
+                  marginBottom: "8px",
+                  color: "#1f3d2b",
+                }}
+              >
+                20%
+              </div>
               <div style={{ fontSize: "15px", color: "#4b5563", lineHeight: "1.6" }}>
                 Segunda etapa ya comercializada
               </div>
