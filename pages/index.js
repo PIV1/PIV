@@ -423,32 +423,33 @@ export default function Home() {
           <div>PIV · Proyectos Inmobiliarios de Valor</div>
 
           <div style={{ display: "flex", gap: "18px", alignItems: "center" }}>
-            <a
-              href="https://www.instagram.com/piv.tepic/"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Instagram"
-              style={{ display: "inline-flex", alignItems: "center" }}
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                style={socialIconStyle}
-              >
-                <defs>
-                  <linearGradient id="igGradient" x1="0%" y1="100%" x2="100%" y2="0%">
-                    <stop offset="0%" stopColor="#feda75" />
-                    <stop offset="25%" stopColor="#fa7e1e" />
-                    <stop offset="50%" stopColor="#d62976" />
-                    <stop offset="75%" stopColor="#962fbf" />
-                    <stop offset="100%" stopColor="#4f5bd5" />
-                  </linearGradient>
-                </defs>
-                <rect width="24" height="24" rx="6" fill="url(#igGradient)" />
-                <circle cx="12" cy="12" r="4" fill="#ffffff" />
-                <circle cx="18" cy="6" r="1.5" fill="#ffffff" />
-              </svg>
-            </a>
+         <a
+  href="https://www.instagram.com/piv.tepic/"
+  target="_blank"
+  rel="noreferrer"
+  aria-label="Instagram"
+  style={{
+    display: "inline-flex",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "28px",
+    height: "28px",
+    borderRadius: "8px",
+    background:
+      "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)",
+  }}
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    style={{ width: "16px", height: "16px" }}
+  >
+    <path
+      fill="#ffffff"
+      d="M7.75 2h8.5C19.44 2 22 4.56 22 7.75v8.5C22 19.44 19.44 22 16.25 22h-8.5C4.56 22 2 19.44 2 16.25v-8.5C2 4.56 4.56 2 7.75 2zm0 2C5.68 4 4 5.68 4 7.75v8.5C4 18.32 5.68 20 7.75 20h8.5c2.07 0 3.75-1.68 3.75-3.75v-8.5C20 5.68 18.32 4 16.25 4h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6zm4.75-2.25a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5z"
+    />
+  </svg>
+</a>
 
             <a
               href="https://www.facebook.com/PIVTepic?locale=es_LA"
