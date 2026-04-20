@@ -1,6 +1,6 @@
 export default function SEOPage() {
   const whatsappLink =
-    "https://wa.me/523111081887?text=Hola,%20me%20interesa%20recibir%20información%20sobre%20sus%20proyectos%20inmobiliarios";
+    "https://wa.me/523111081887?text=Hola,%20me%20interesa%20recibir%20informaci%C3%B3n%20sobre%20sus%20proyectos%20inmobiliarios";
 
   const sectionStyle = {
     marginTop: "48px",
@@ -47,10 +47,30 @@ export default function SEOPage() {
         </h1>
 
         <p style={{ fontSize: "18px", lineHeight: "1.7", color: "#4b5563", maxWidth: "900px" }}>
-          En PIV somos un desarrollador inmobiliario enfocado en la planeación,
+          En{" "}
+          <a
+            href="/"
+            style={{
+              color: "#1f3d2b",
+              fontWeight: "600",
+              textDecoration: "none",
+            }}
+          >
+            PIV
+          </a>{" "}
+          somos un desarrollador inmobiliario enfocado en la planeación,
           estructuración y ejecución de proyectos de alto valor en Tepic,
           Xalisco y el estado de Nayarit.
         </p>
+
+        <a
+          href={whatsappLink}
+          target="_blank"
+          rel="noreferrer"
+          style={buttonWhatsapp}
+        >
+          Contactar por WhatsApp
+        </a>
 
         <section style={sectionStyle}>
           <h2 style={{ fontSize: "32px", marginBottom: "14px" }}>
@@ -118,6 +138,11 @@ export default function SEOPage() {
 
         <section style={{ marginTop: "60px" }}>
           <h2 style={{ fontSize: "32px", marginBottom: "14px" }}>Contacto</h2>
+
+          <p style={{ fontSize: "17px", lineHeight: "1.8", maxWidth: "900px" }}>
+            Si estás buscando invertir en terrenos o conocer oportunidades en
+            Tepic y Nayarit, estamos listos para ayudarte.
+          </p>
 
           <a
             href={whatsappLink}
