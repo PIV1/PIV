@@ -160,10 +160,46 @@ export default function Home() {
           </div>
         </section>
 
-        <footer style={{ marginTop: "60px" }}>
-          <a href="/privacidad">Aviso de Privacidad</a>
-        </footer>
-      </div>
-    </main>
-  );
-}
+        <footer
+  style={{
+    marginTop: "72px",
+    paddingTop: "28px",
+    borderTop: "1px solid #e5e7eb",
+    display: "flex",
+    justifyContent: "space-between",
+    flexWrap: "wrap",
+    gap: "14px",
+    fontSize: "14px",
+    color: "#6b7280",
+    alignItems: "center",
+  }}
+>
+  <div>PIV · Proyectos Inmobiliarios de Valor</div>
+
+  <div style={{ display: "flex", gap: "16px" }}>
+    <a
+      href="https://www.instagram.com/piv.tepic/"
+      target="_blank"
+      rel="noreferrer"
+      style={{ textDecoration: "none", color: "#374151" }}
+    >
+      Instagram
+    </a>
+
+    <a
+      href="https://www.facebook.com/PIVTepic?locale=es_LA"
+      target="_blank"
+      rel="noreferrer"
+      style={{ textDecoration: "none", color: "#374151" }}
+    >
+      Facebook
+    </a>
+
+    <a
+      href="/privacidad"
+      style={{ textDecoration: "none", color: "#374151" }}
+    >
+      Aviso de Privacidad
+    </a>
+  </div>
+</footer>
