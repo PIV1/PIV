@@ -38,6 +38,21 @@ export default function Home() {
     marginTop: "20px",
   };
 
+  const whatsappButtonStyle = {
+    display: "inline-flex",
+    alignItems: "center",
+    gap: "10px",
+    backgroundColor: "#25D366",
+    color: "#ffffff",
+    textDecoration: "none",
+    padding: "14px 22px",
+    borderRadius: "999px",
+    fontWeight: "700",
+    fontSize: "15px",
+    marginTop: "20px",
+    border: "none",
+  };
+
   const statStyle = {
     flex: "1 1 220px",
     backgroundColor: "#ffffff",
@@ -377,8 +392,16 @@ export default function Home() {
             href={whatsappLink}
             target="_blank"
             rel="noreferrer"
-            style={buttonPrimary}
+            style={whatsappButtonStyle}
           >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 32 32"
+              style={{ width: "20px", height: "20px", fill: "#ffffff" }}
+            >
+              <path d="M19.11 17.21c-.27-.14-1.61-.79-1.86-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.31.2-.58.07-.27-.14-1.14-.42-2.17-1.34-.8-.71-1.34-1.59-1.5-1.86-.16-.27-.02-.42.12-.56.12-.12.27-.31.41-.47.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.47-.07-.14-.61-1.47-.84-2.02-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.47.07-.72.34-.25.27-.95.93-.95 2.26s.97 2.61 1.11 2.79c.14.18 1.91 2.91 4.63 4.08.65.28 1.16.45 1.55.58.65.21 1.24.18 1.71.11.52-.08 1.61-.66 1.84-1.29.23-.63.23-1.17.16-1.29-.07-.11-.25-.18-.52-.32z" />
+              <path d="M16.03 3.2c-7.09 0-12.84 5.75-12.84 12.84 0 2.25.58 4.45 1.69 6.39L3 29l6.76-1.77a12.8 12.8 0 006.27 1.6h.01c7.09 0 12.84-5.75 12.84-12.84S23.12 3.2 16.03 3.2zm0 23.37h-.01a10.5 10.5 0 01-5.35-1.46l-.38-.23-4.01 1.05 1.07-3.91-.25-.4a10.52 10.52 0 01-1.62-5.59c0-5.8 4.72-10.52 10.53-10.52 2.81 0 5.45 1.09 7.44 3.08a10.45 10.45 0 013.08 7.44c0 5.81-4.72 10.54-10.5 10.54z" />
+            </svg>
             Contactar por WhatsApp
           </a>
         </section>
@@ -413,7 +436,7 @@ export default function Home() {
                 style={socialIconStyle}
               >
                 <defs>
-                  <linearGradient id="instagramGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+                  <linearGradient id="igGradient" x1="0%" y1="100%" x2="100%" y2="0%">
                     <stop offset="0%" stopColor="#feda75" />
                     <stop offset="25%" stopColor="#fa7e1e" />
                     <stop offset="50%" stopColor="#d62976" />
@@ -421,12 +444,9 @@ export default function Home() {
                     <stop offset="100%" stopColor="#4f5bd5" />
                   </linearGradient>
                 </defs>
-                <path
-                  fill="url(#instagramGradient)"
-                  d="M7.75 2h8.5C19.44 2 22 4.56 22 7.75v8.5C22 19.44 19.44 22 16.25 22h-8.5C4.56 22 2 19.44 2 16.25v-8.5C2 4.56 4.56 2 7.75 2zm0 2C5.68 4 4 5.68 4 7.75v8.5C4 18.32 5.68 20 7.75 20h8.5c2.07 0 3.75-1.68 3.75-3.75v-8.5C20 5.68 18.32 4 16.25 4h-8.5z"
-                />
-                <circle cx="12" cy="12" r="3.2" fill="#ffffff" />
-                <circle cx="16.9" cy="7.1" r="1.1" fill="#ffffff" />
+                <rect width="24" height="24" rx="6" fill="url(#igGradient)" />
+                <circle cx="12" cy="12" r="4" fill="#ffffff" />
+                <circle cx="18" cy="6" r="1.5" fill="#ffffff" />
               </svg>
             </a>
 
