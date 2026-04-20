@@ -1,7 +1,6 @@
 export default function Home() {
   const sectionStyle = {
     marginTop: "56px",
-    paddingTop: "8px",
   };
 
   const cardStyle = {
@@ -25,19 +24,6 @@ export default function Home() {
     marginRight: "12px",
   };
 
-  const buttonSecondary = {
-    display: "inline-block",
-    backgroundColor: "#ffffff",
-    color: "#1f3d2b",
-    textDecoration: "none",
-    padding: "14px 22px",
-    borderRadius: "999px",
-    fontWeight: "600",
-    fontSize: "15px",
-    border: "1px solid #cfd8d2",
-    marginTop: "20px",
-  };
-
   const whatsappButtonStyle = {
     display: "inline-flex",
     alignItems: "center",
@@ -50,14 +36,6 @@ export default function Home() {
     fontWeight: "700",
     fontSize: "15px",
     marginTop: "20px",
-  };
-
-  const statStyle = {
-    flex: "1 1 220px",
-    backgroundColor: "#ffffff",
-    border: "1px solid #dfe7e2",
-    borderRadius: "18px",
-    padding: "22px",
   };
 
   const whatsappLink =
@@ -88,7 +66,6 @@ export default function Home() {
             paddingBottom: "24px",
             borderBottom: "1px solid #e5e7eb",
             flexWrap: "wrap",
-            gap: "16px",
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
@@ -118,22 +95,8 @@ export default function Home() {
 
         {/* HERO */}
         <section style={{ paddingTop: "64px" }}>
-          <div
-            style={{
-              fontSize: "13px",
-              color: "#1f3d2b",
-              backgroundColor: "#e8f3ed",
-              padding: "8px 14px",
-              borderRadius: "999px",
-              marginBottom: "20px",
-              display: "inline-block",
-            }}
-          >
-            Generamos valor para tu inversión
-          </div>
-
           <h1 style={{ fontSize: "48px" }}>
-            Desarrollamos proyectos inmobiliarios con enfoque en generación de valor.
+            Desarrollamos proyectos inmobiliarios con enfoque en generación de valor
           </h1>
 
           <p style={{ fontSize: "18px", color: "#4b5563" }}>
@@ -145,9 +108,30 @@ export default function Home() {
           </a>
         </section>
 
+        {/* VALLEGRAND */}
+        <section id="vallegrand" style={sectionStyle}>
+          <h2>Proyecto destacado</h2>
+
+          <div style={cardStyle}>
+            <h3>Vallegrand</h3>
+            <p>
+              Desarrollo ubicado en Xalisco, Nayarit, enfocado en generar valor a través de planeación estratégica.
+            </p>
+
+            <a
+              href="https://vallegrand.mx"
+              target="_blank"
+              style={buttonPrimary}
+            >
+              Conocer proyecto Vallegrand
+            </a>
+          </div>
+        </section>
+
         {/* NOSOTROS */}
         <section id="nosotros" style={sectionStyle}>
           <h2>Acerca de nosotros</h2>
+
           <div style={cardStyle}>
             <p>
               PIV es una firma enfocada en el desarrollo de proyectos inmobiliarios
@@ -156,15 +140,13 @@ export default function Home() {
           </div>
         </section>
 
-        {/* NUEVA SECCIÓN SEO */}
+        {/* SECCIÓN SEO */}
         <section style={sectionStyle}>
-          <h2 style={{ fontSize: "32px", marginBottom: "10px" }}>
-            Conoce más sobre PIV
-          </h2>
+          <h2>Conoce más sobre PIV</h2>
 
           <div style={cardStyle}>
-            <p style={{ fontSize: "17px", lineHeight: "1.8" }}>
-              Explora más sobre nuestra visión, experiencia y enfoque de desarrollo inmobiliario en Tepic, Xalisco y Nayarit.
+            <p>
+              Explora más sobre nuestra experiencia como desarrollador inmobiliario en Tepic y Nayarit.
             </p>
 
             <a
@@ -200,15 +182,33 @@ export default function Home() {
             justifyContent: "space-between",
             flexWrap: "wrap",
             fontSize: "14px",
+            color: "#6b7280",
           }}
         >
           <div>PIV · Proyectos Inmobiliarios de Valor</div>
 
-          <div style={{ display: "flex", gap: "16px" }}>
-            <a href="/desarrollador-inmobiliario-tepic">
-              SEO
+          <div style={{ display: "flex", gap: "18px", alignItems: "center" }}>
+            <a
+              href="https://www.instagram.com/piv.tepic/"
+              target="_blank"
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                style={{ width: "24px" }}
+              />
             </a>
-            <a href="/privacidad">Privacidad</a>
+
+            <a
+              href="https://www.facebook.com/PIVTepic?locale=es_LA"
+              target="_blank"
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg"
+                style={{ width: "24px" }}
+              />
+            </a>
+
+            <a href="/privacidad">Aviso de Privacidad</a>
           </div>
         </footer>
       </div>
