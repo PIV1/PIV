@@ -67,6 +67,12 @@ export default function Home() {
     display: "block",
   };
 
+  const internalLinkStyle = {
+    color: "#1f3d2b",
+    fontWeight: "700",
+    textDecoration: "underline",
+  };
+
   const whatsappLink =
     "https://wa.me/523111081887?text=Hola,%20me%20interesa%20recibir%20informaci%C3%B3n%20sobre%20sus%20proyectos%20inmobiliarios";
 
@@ -340,7 +346,11 @@ export default function Home() {
           <div style={cardStyle}>
             <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#374151", marginTop: 0 }}>
               PIV es una firma enfocada en el desarrollo de proyectos inmobiliarios con una visión clara: generar valor
-              a través de la planeación, la ejecución y la disciplina operativa.
+              a través de la planeación, la ejecución y la disciplina operativa. Como{" "}
+              <a href="/desarrollador-inmobiliario-tepic" style={internalLinkStyle}>
+                desarrollador inmobiliario en Tepic
+              </a>
+              , buscamos crear proyectos sólidos en Tepic, Xalisco y Nayarit.
             </p>
 
             <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#4b5563" }}>
@@ -414,12 +424,7 @@ export default function Home() {
             </div>
           </div>
 
-          <a
-            href={whatsappLink}
-            target="_blank"
-            rel="noreferrer"
-            style={whatsappButtonStyle}
-          >
+          <a href={whatsappLink} target="_blank" rel="noreferrer" style={whatsappButtonStyle}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 32 32"
@@ -468,11 +473,7 @@ export default function Home() {
                     "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)",
                 }}
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  style={{ width: "16px", height: "16px" }}
-                >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style={{ width: "16px", height: "16px" }}>
                   <path
                     fill="#ffffff"
                     d="M7.75 2h8.5C19.44 2 22 4.56 22 7.75v8.5C22 19.44 19.44 22 16.25 22h-8.5C4.56 22 2 19.44 2 16.25v-8.5C2 4.56 4.56 2 7.75 2zm0 2C5.68 4 4 5.68 4 7.75v8.5C4 18.32 5.68 20 7.75 20h8.5c2.07 0 3.75-1.68 3.75-3.75v-8.5C20 5.68 18.32 4 16.25 4h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6zm4.75-2.25a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5z"
@@ -488,11 +489,7 @@ export default function Home() {
               aria-label="Facebook"
               style={{ display: "inline-flex", alignItems: "center" }}
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                style={socialIconStyle}
-              >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style={socialIconStyle}>
                 <path
                   fill="#1877F2"
                   d="M24 12a12 12 0 10-13.88 11.85v-8.39H7.08V12h3.04V9.41c0-3 1.79-4.66 4.52-4.66 1.31 0 2.68.23 2.68.23v2.95h-1.51c-1.49 0-1.95.92-1.95 1.87V12h3.32l-.53 3.46h-2.79v8.39A12 12 0 0024 12z"
@@ -504,10 +501,7 @@ export default function Home() {
               </svg>
             </a>
 
-            <a
-              href="/privacidad"
-              style={{ textDecoration: "none", color: "#374151" }}
-            >
+            <a href="/privacidad" style={{ textDecoration: "none", color: "#374151" }}>
               Aviso de Privacidad
             </a>
           </div>
