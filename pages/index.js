@@ -346,11 +346,11 @@ export default function Home() {
           <div style={cardStyle}>
             <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#374151", marginTop: 0 }}>
               PIV es una firma enfocada en el desarrollo de proyectos inmobiliarios con una visión clara: generar valor
-              a través de la planeación, la ejecución y la disciplina operativa. Como{" "}
-              <a href="/desarrollador-inmobiliario-tepic" style={internalLinkStyle}>
-                desarrollador inmobiliario en Tepic
-              </a>
-              , buscamos crear proyectos sólidos en Tepic, Xalisco y Nayarit.
+a través de la planeación, la ejecución y la disciplina operativa. Como{" "}
+<a href="/desarrollador-inmobiliario-tepic" style={{ color: "#1f3d2b", fontWeight: "700", textDecoration: "underline" }}>
+  desarrollador inmobiliario en Tepic
+</a>
+, buscamos crear proyectos sólidos en Tepic, Xalisco y Nayarit.
             </p>
 
             <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#4b5563" }}>
