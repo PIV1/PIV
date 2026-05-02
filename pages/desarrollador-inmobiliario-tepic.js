@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Desarrollador inmobiliario en Tepic y Nayarit | PIV",
   description:
-    "PIV desarrolla proyectos inmobiliarios en Tepic, Xalisco y Nayarit, enfocados en inversión, valorización del suelo y oportunidades inmobiliarias.",
+    "PIV desarrolla proyectos inmobiliarios en Tepic, Xalisco y Nayarit, enfocados en inversión, valorización del suelo, terrenos urbanizados y proyectos aptos para crédito INFONAVIT.",
   alternates: {
     canonical: "https://www.piv.one/desarrollador-inmobiliario-tepic",
   },
@@ -131,12 +131,7 @@ export default function SEOPage() {
           </nav>
         </header>
 
-        <section
-          style={{
-            paddingTop: "64px",
-            paddingBottom: "24px",
-          }}
-        >
+        <section style={{ paddingTop: "64px", paddingBottom: "24px" }}>
           <div
             style={{
               display: "inline-block",
@@ -220,6 +215,55 @@ export default function SEOPage() {
 
         <section style={{ marginTop: "56px" }}>
           <h2 style={{ fontSize: "32px", marginBottom: "10px" }}>
+            Un desarrollador inmobiliario en Tepic con proyectos aptos para crédito INFONAVIT
+          </h2>
+
+          <div
+            style={{
+              backgroundColor: "#f3f6f4",
+              border: "1px solid #dfe7e2",
+              borderRadius: "18px",
+              padding: "24px",
+              marginTop: "20px",
+            }}
+          >
+            <p style={{ fontSize: "17px", lineHeight: "1.8", marginTop: 0 }}>
+              Como desarrollador inmobiliario en Tepic, en PIV nos distinguimos
+              por desarrollar proyectos que cumplen con todos los requisitos
+              legales, técnicos y urbanos necesarios para su comercialización a
+              través de instituciones de crédito como INFONAVIT y la banca
+              tradicional.
+            </p>
+
+            <p style={{ fontSize: "17px", lineHeight: "1.8" }}>
+              Nuestro desarrollo Vallegrand cuenta con todos los elementos
+              necesarios para brindar certeza jurídica a nuestros clientes,
+              incluyendo contratos de agua, alineamiento oficial, licencia de uso
+              de suelo y la asignación de números oficiales para cada lote. Esto
+              garantiza que cada propiedad esté debidamente regularizada y lista
+              para su adquisición.
+            </p>
+
+            <p style={{ fontSize: "17px", lineHeight: "1.8" }}>
+              Gracias a este cumplimiento integral, nuestros clientes pueden
+              adquirir terrenos en Tepic utilizando crédito INFONAVIT, así como
+              distintos tipos de financiamiento bancario, lo cual representa una
+              ventaja significativa frente a otros fraccionamientos que no cumplen
+              con los lineamientos que estas instituciones exigen.
+            </p>
+
+            <p style={{ fontSize: "17px", lineHeight: "1.8", marginBottom: 0 }}>
+              En PIV no solo desarrollamos proyectos inmobiliarios en Tepic y
+              Xalisco, sino que ofrecemos oportunidades de inversión respaldadas
+              por procesos sólidos, transparencia y cumplimiento normativo,
+              generando confianza tanto para inversionistas como para compradores
+              finales.
+            </p>
+          </div>
+        </section>
+
+        <section style={{ marginTop: "56px" }}>
+          <h2 style={{ fontSize: "32px", marginBottom: "10px" }}>
             Inversión en terrenos y lotes en Nayarit
           </h2>
           <div
@@ -289,9 +333,9 @@ export default function SEOPage() {
             </p>
 
             <p style={{ fontSize: "17px", lineHeight: "1.8", marginBottom: 0 }}>
-              Este proyecto combina ubicación estratégica, planeación urbana y una
-              propuesta sólida de inversión, ideal tanto para desarrollo
-              habitacional como para inversión patrimonial.
+              Este proyecto combina ubicación estratégica, planeación urbana,
+              cumplimiento normativo y una propuesta sólida de inversión, ideal
+              tanto para desarrollo habitacional como para inversión patrimonial.
             </p>
 
             <a
