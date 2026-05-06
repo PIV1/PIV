@@ -103,21 +103,11 @@ export default function Home() {
             gap: "16px",
           }}
         >
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "16px",
-            }}
-          >
+          <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
             <img
               src="/logo-piv.png"
               alt="Logotipo PIV"
-              style={{
-                width: "64px",
-                height: "64px",
-                objectFit: "contain",
-              }}
+              style={{ width: "64px", height: "64px", objectFit: "contain" }}
             />
 
             <div>
@@ -130,60 +120,26 @@ export default function Home() {
               >
                 PIV
               </div>
-
-              <div
-                style={{
-                  fontSize: "13px",
-                  color: "#6b7280",
-                  marginTop: "6px",
-                }}
-              >
+              <div style={{ fontSize: "13px", color: "#6b7280", marginTop: "6px" }}>
                 Proyectos Inmobiliarios de Valor
               </div>
             </div>
           </div>
 
           <nav style={{ fontSize: "14px", color: "#374151" }}>
-            <a
-              href="#vallegrand"
-              style={{
-                marginRight: "18px",
-                color: "#374151",
-                textDecoration: "none",
-              }}
-            >
+            <a href="#vallegrand" style={{ marginRight: "18px", color: "#374151", textDecoration: "none" }}>
               Vallegrand
             </a>
-
-            <a
-              href="#nosotros"
-              style={{
-                marginRight: "18px",
-                color: "#374151",
-                textDecoration: "none",
-              }}
-            >
+            <a href="#nosotros" style={{ marginRight: "18px", color: "#374151", textDecoration: "none" }}>
               Nosotros
             </a>
-
-            <a
-              href="#contacto"
-              style={{
-                color: "#374151",
-                textDecoration: "none",
-              }}
-            >
+            <a href="#contacto" style={{ color: "#374151", textDecoration: "none" }}>
               Contacto
             </a>
           </nav>
         </header>
 
-        <section
-          style={{
-            paddingTop: "64px",
-            paddingBottom: "24px",
-          }}
-        >
+        <section style={{ paddingTop: "64px", paddingBottom: "24px" }}>
           <div
             style={{
               display: "inline-block",
@@ -218,18 +174,12 @@ export default function Home() {
               margin: 0,
             }}
           >
-            Identificamos oportunidades, estructuramos proyectos y los llevamos
-            a ejecución con un objetivo claro: crear desarrollos sólidos con
-            alto potencial de valorización.
+            Identificamos oportunidades, estructuramos proyectos y los llevamos a ejecución con un objetivo claro:
+            crear desarrollos sólidos con alto potencial de valorización.
           </p>
 
           <div style={{ marginTop: "18px" }}>
-            <a
-              href="https://www.vallegrand.com"
-              target="_blank"
-              rel="noreferrer"
-              style={buttonPrimary}
-            >
+            <a href="https://www.vallegrand.com" target="_blank" rel="noreferrer" style={buttonPrimary}>
               Conocer proyecto Vallegrand
             </a>
 
@@ -245,36 +195,23 @@ export default function Home() {
           </h2>
 
           <div style={cardStyle}>
-            <p
-              style={{
-                fontSize: "17px",
-                lineHeight: "1.8",
-                color: "#374151",
-                marginTop: 0,
-              }}
-            >
-              En PIV desarrollamos proyectos inmobiliarios enfocados en generar
-              valor en Xalisco, Tepic y todo el estado de Nayarit. Conoce más
-              sobre nuestro enfoque como{" "}
-              <a
-                href="/desarrollador-inmobiliario-tepic"
-                style={internalLinkStyle}
-              >
+            <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#374151", marginTop: 0 }}>
+              En PIV desarrollamos proyectos inmobiliarios enfocados en generar valor en Xalisco, Tepic y todo el
+              estado de Nayarit. Conoce más sobre nuestro enfoque como{" "}
+              <a href="/desarrollador-inmobiliario-tepic" style={internalLinkStyle}>
                 desarrollador inmobiliario en Xalisco y Nayarit
               </a>
-              .
+              , así como nuestra capacidad para estructurar proyectos con cumplimiento normativo, certeza jurídica y
+              potencial de valorización.
             </p>
 
-            <p
-              style={{
-                fontSize: "17px",
-                lineHeight: "1.8",
-                color: "#4b5563",
-                marginBottom: 0,
-              }}
-            >
-              Nuestro proyecto Vallegrand reúne requisitos clave para facilitar
-              operaciones mediante crédito INFONAVIT y financiamiento bancario.
+            <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#4b5563", marginBottom: 0 }}>
+              Nuestro proyecto Vallegrand reúne requisitos clave para facilitar operaciones mediante crédito INFONAVIT
+              y financiamiento bancario. Conoce más sobre nuestros{" "}
+              <a href="/desarrollador-inmobiliario-tepic" style={internalLinkStyle}>
+                proyectos inmobiliarios en Xalisco
+              </a>
+              .
             </p>
           </div>
         </section>
@@ -284,89 +221,121 @@ export default function Home() {
             Resultados que respaldan nuestra ejecución
           </h2>
 
-          <div
-            style={{
-              display: "flex",
-              flexWrap: "wrap",
-              gap: "18px",
-              marginTop: "24px",
-            }}
-          >
+          <p style={{ fontSize: "18px", lineHeight: "1.7", color: "#4b5563", maxWidth: "860px" }}>
+            Nuestro primer desarrollo, Vallegrand, valida nuestra capacidad de estructuración, ejecución y
+            comercialización en proyectos reales.
+          </p>
+
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "18px", marginTop: "24px" }}>
             <div style={statStyle}>
-              <div
-                style={{
-                  fontSize: "30px",
-                  fontWeight: "700",
-                  marginBottom: "8px",
-                  color: "#1f3d2b",
-                }}
-              >
+              <div style={{ fontSize: "30px", fontWeight: "700", marginBottom: "8px", color: "#1f3d2b" }}>
                 100%
               </div>
-
-              <div
-                style={{
-                  fontSize: "15px",
-                  color: "#4b5563",
-                  lineHeight: "1.6",
-                }}
-              >
+              <div style={{ fontSize: "15px", color: "#4b5563", lineHeight: "1.6" }}>
                 Primera etapa vendida en su totalidad
               </div>
             </div>
 
             <div style={statStyle}>
-              <div
-                style={{
-                  fontSize: "30px",
-                  fontWeight: "700",
-                  marginBottom: "8px",
-                  color: "#1f3d2b",
-                }}
-              >
+              <div style={{ fontSize: "30px", fontWeight: "700", marginBottom: "8px", color: "#1f3d2b" }}>
                 100%
               </div>
-
-              <div
-                style={{
-                  fontSize: "15px",
-                  color: "#4b5563",
-                  lineHeight: "1.6",
-                }}
-              >
+              <div style={{ fontSize: "15px", color: "#4b5563", lineHeight: "1.6" }}>
                 Segunda etapa urbanizada
               </div>
             </div>
 
             <div style={statStyle}>
-              <div
-                style={{
-                  fontSize: "30px",
-                  fontWeight: "700",
-                  marginBottom: "8px",
-                  color: "#1f3d2b",
-                }}
-              >
+              <div style={{ fontSize: "30px", fontWeight: "700", marginBottom: "8px", color: "#1f3d2b" }}>
                 20%
               </div>
-
-              <div
-                style={{
-                  fontSize: "15px",
-                  color: "#4b5563",
-                  lineHeight: "1.6",
-                }}
-              >
+              <div style={{ fontSize: "15px", color: "#4b5563", lineHeight: "1.6" }}>
                 Segunda etapa ya comercializada
               </div>
             </div>
           </div>
+
+          <div style={cardStyle}>
+            <p style={{ margin: 0, fontSize: "17px", lineHeight: "1.8", color: "#374151" }}>
+              Adicionalmente, Vallegrand se distingue por un estándar de calidad de obra superior al promedio dentro
+              de su categoría, reflejando una ejecución cuidada en cada detalle. Estos resultados expresan una
+              propuesta sólida, una respuesta positiva del mercado y una disciplina operativa consistente.
+            </p>
+          </div>
+        </section>
+
+        <section id="vallegrand" style={sectionStyle}>
+          <h2 style={{ fontSize: "32px", marginBottom: "8px" }}>Vallegrand</h2>
+          <p style={{ fontSize: "15px", color: "#6b7280", marginTop: 0 }}>Xalisco, Nayarit</p>
+
+          <div style={cardStyle}>
+            <p style={{ fontSize: "18px", lineHeight: "1.8", color: "#374151", marginTop: 0 }}>
+              Vallegrand es un desarrollo de lotes urbanizados con fines habitacionales, estructurado en cuatro etapas
+              y concebido bajo un enfoque de generación de valor desde su origen.
+            </p>
+
+            <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#4b5563" }}>
+              El proyecto combina planeación estratégica, ejecución eficiente y una sólida aceptación comercial.
+            </p>
+
+            <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#4b5563" }}>
+              Dentro de su segmento, destaca por un estándar de calidad de obra por encima del promedio, lo que
+              fortalece su posicionamiento y su potencial de valorización.
+            </p>
+
+            <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#4b5563", marginBottom: 0 }}>
+              Representa el primer proyecto de PIV y establece la base para el crecimiento y consolidación de futuros
+              desarrollos.
+            </p>
+
+            <a href="https://www.vallegrand.com" target="_blank" rel="noreferrer" style={buttonPrimary}>
+              Conocer más
+            </a>
+          </div>
+        </section>
+
+        <section id="nosotros" style={sectionStyle}>
+          <h2 style={{ fontSize: "32px", marginBottom: "10px" }}>Acerca de nosotros</h2>
+
+          <div style={cardStyle}>
+            <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#374151", marginTop: 0 }}>
+              PIV es una firma enfocada en el desarrollo de proyectos inmobiliarios con una visión clara: generar valor
+              a través de la planeación, la ejecución y la disciplina operativa. Como{" "}
+              <a href="/desarrollador-inmobiliario-tepic" style={internalLinkStyle}>
+                desarrollador inmobiliario en Xalisco y Nayarit
+              </a>
+              , buscamos crear proyectos sólidos en Xalisco, Tepic y todo el estado de Nayarit.
+            </p>
+
+            <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#4b5563" }}>
+              Cada proyecto es estructurado con un enfoque estratégico, priorizando su viabilidad, su potencial de
+              valorización y su correcta ejecución en el tiempo.
+            </p>
+
+            <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#4b5563", marginBottom: 0 }}>
+              Nuestra fortaleza está en desarrollar proyectos con una visión institucional, cuidando tanto la calidad
+              de la obra como la solidez de la propuesta inmobiliaria.
+            </p>
+          </div>
+        </section>
+
+        <section style={sectionStyle}>
+          <h2 style={{ fontSize: "32px", marginBottom: "10px" }}>Conoce más sobre PIV</h2>
+
+          <div style={cardStyle}>
+            <p style={{ fontSize: "17px", lineHeight: "1.8", color: "#374151", marginTop: 0 }}>
+              Explora más sobre nuestra visión, experiencia y enfoque de desarrollo inmobiliario en Xalisco, Tepic y
+              Nayarit.
+            </p>
+
+            <a href="/desarrollador-inmobiliario-tepic" style={buttonPrimary}>
+              Desarrollador inmobiliario en Xalisco y Nayarit
+            </a>
+          </div>
         </section>
 
         <section id="contacto" style={sectionStyle}>
-          <h2 style={{ fontSize: "32px", marginBottom: "10px" }}>
-            Contacto
-          </h2>
+          <h2 style={{ fontSize: "32px", marginBottom: "10px" }}>Contacto</h2>
 
           <div
             style={{
@@ -377,71 +346,23 @@ export default function Home() {
             }}
           >
             <div style={cardStyle}>
-              <div
-                style={{
-                  fontSize: "14px",
-                  color: "#6b7280",
-                  marginBottom: "8px",
-                }}
-              >
-                Correo
-              </div>
-
-              <div style={{ fontSize: "18px", color: "#111827" }}>
-                hola@piv.one
-              </div>
+              <div style={{ fontSize: "14px", color: "#6b7280", marginBottom: "8px" }}>Correo</div>
+              <div style={{ fontSize: "18px", color: "#111827" }}>hola@piv.one</div>
             </div>
 
             <div style={cardStyle}>
-              <div
-                style={{
-                  fontSize: "14px",
-                  color: "#6b7280",
-                  marginBottom: "8px",
-                }}
-              >
-                Teléfono
-              </div>
-
-              <div style={{ fontSize: "18px", color: "#111827" }}>
-                +52 311 466 9798
-              </div>
+              <div style={{ fontSize: "14px", color: "#6b7280", marginBottom: "8px" }}>Teléfono</div>
+              <div style={{ fontSize: "18px", color: "#111827" }}>+52 311 466 9798</div>
             </div>
 
             <div style={cardStyle}>
-              <div
-                style={{
-                  fontSize: "14px",
-                  color: "#6b7280",
-                  marginBottom: "8px",
-                }}
-              >
-                WhatsApp
-              </div>
-
-              <div style={{ fontSize: "18px", color: "#111827" }}>
-                +52 311 108 1887
-              </div>
+              <div style={{ fontSize: "14px", color: "#6b7280", marginBottom: "8px" }}>WhatsApp</div>
+              <div style={{ fontSize: "18px", color: "#111827" }}>+52 311 108 1887</div>
             </div>
 
             <div style={cardStyle}>
-              <div
-                style={{
-                  fontSize: "14px",
-                  color: "#6b7280",
-                  marginBottom: "8px",
-                }}
-              >
-                Oficina
-              </div>
-
-              <div
-                style={{
-                  fontSize: "17px",
-                  lineHeight: "1.8",
-                  color: "#111827",
-                }}
-              >
+              <div style={{ fontSize: "14px", color: "#6b7280", marginBottom: "8px" }}>Oficina</div>
+              <div style={{ fontSize: "17px", lineHeight: "1.8", color: "#111827" }}>
                 Av. Palomas #196
                 <br />
                 Col. Las Palomas
@@ -451,12 +372,7 @@ export default function Home() {
             </div>
           </div>
 
-          <a
-            href={whatsappLink}
-            target="_blank"
-            rel="noreferrer"
-            style={whatsappButtonStyle}
-          >
+          <a href={whatsappLink} target="_blank" rel="noreferrer" style={whatsappButtonStyle}>
             Contactar por WhatsApp
           </a>
         </section>
@@ -477,22 +393,13 @@ export default function Home() {
         >
           <div>PIV · Proyectos Inmobiliarios de Valor</div>
 
-          <div
-            style={{
-              display: "flex",
-              gap: "18px",
-              alignItems: "center",
-            }}
-          >
+          <div style={{ display: "flex", gap: "18px", alignItems: "center" }}>
             <a
               href="https://www.instagram.com/piv.tepic/"
               target="_blank"
               rel="noreferrer"
               aria-label="Instagram"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-              }}
+              style={{ display: "inline-flex", alignItems: "center" }}
             >
               <div
                 style={{
@@ -506,14 +413,7 @@ export default function Home() {
                     "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)",
                 }}
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  style={{
-                    width: "16px",
-                    height: "16px",
-                  }}
-                >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style={{ width: "16px", height: "16px" }}>
                   <path
                     fill="#ffffff"
                     d="M7.75 2h8.5C19.44 2 22 4.56 22 7.75v8.5C22 19.44 19.44 22 16.25 22h-8.5C4.56 22 2 19.44 2 16.25v-8.5C2 4.56 4.56 2 7.75 2zm0 2C5.68 4 4 5.68 4 7.75v8.5C4 18.32 5.68 20 7.75 20h8.5c2.07 0 3.75-1.68 3.75-3.75v-8.5C20 5.68 18.32 4 16.25 4h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6zm4.75-2.25a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5z"
@@ -527,16 +427,9 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
               aria-label="Facebook"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-              }}
+              style={{ display: "inline-flex", alignItems: "center" }}
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                style={socialIconStyle}
-              >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style={socialIconStyle}>
                 <path
                   fill="#1877F2"
                   d="M24 12a12 12 0 10-13.88 11.85v-8.39H7.08V12h3.04V9.41c0-3 1.79-4.66 4.52-4.66 1.31 0 2.68.23 2.68.23v2.95h-1.51c-1.49 0-1.95.92-1.95 1.87V12h3.32l-.53 3.46h-2.79v8.39A12 12 0 0024 12z"
@@ -548,13 +441,7 @@ export default function Home() {
               </svg>
             </a>
 
-            <a
-              href="/privacidad"
-              style={{
-                textDecoration: "none",
-                color: "#374151",
-              }}
-            >
+            <a href="/privacidad" style={{ textDecoration: "none", color: "#374151" }}>
               Aviso de Privacidad
             </a>
           </div>
