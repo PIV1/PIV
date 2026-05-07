@@ -264,69 +264,83 @@ export default function TerrenosXalisco() {
         </section>
 
         <footer
-          style={{
-            marginTop: "72px",
-            paddingTop: "28px",
-            borderTop: "1px solid #e5e7eb",
-            display: "flex",
-            justifyContent: "space-between",
-            flexWrap: "wrap",
-            gap: "14px",
-            fontSize: "14px",
-            color: "#6b7280",
-            alignItems: "center",
-          }}
+  style={{
+    marginTop: "72px",
+    paddingTop: "28px",
+    borderTop: "1px solid #e5e7eb",
+    display: "flex",
+    justifyContent: "space-between",
+    flexWrap: "wrap",
+    gap: "14px",
+    fontSize: "14px",
+    color: "#6b7280",
+    alignItems: "center",
+  }}
+>
+  <div>PIV · Proyectos Inmobiliarios de Valor</div>
+
+  <div style={{ display: "flex", gap: "18px", alignItems: "center" }}>
+    <a
+      href="https://www.instagram.com/piv.tepic/"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Instagram"
+      style={{ display: "inline-flex", alignItems: "center" }}
+    >
+      <div
+        style={{
+          width: "28px",
+          height: "28px",
+          borderRadius: "8px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          background:
+            "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)",
+        }}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          style={{ width: "16px", height: "16px" }}
         >
-          <div>PIV · Proyectos Inmobiliarios de Valor</div>
-
-          <div style={{ display: "flex", gap: "18px", alignItems: "center" }}>
-            <a
-              href="https://www.instagram.com/piv.tepic/"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Instagram"
-            >
-              <div
-                style={{
-                  width: "28px",
-                  height: "28px",
-                  borderRadius: "8px",
-                  background:
-                    "radial-gradient(circle at 30% 107%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285AEB 90%)",
-                }}
-              />
-            </a>
-
-            <a
-              href="https://www.facebook.com/PIVTepic?locale=es_LA"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Facebook"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                style={socialIconStyle}
-              >
-                <path
-                  fill="#1877F2"
-                  d="M24 12a12 12 0 10-13.88 11.85v-8.39H7.08V12h3.04V9.41c0-3 1.79-4.66 4.52-4.66..."
-                />
-              </svg>
-            </a>
-
-            <a
-              href="/privacidad"
-              style={{
-                textDecoration: "none",
-                color: "#374151",
-              }}
-            >
-              Aviso de Privacidad
-            </a>
-          </div>
-        </footer>
+          <path
+            fill="#ffffff"
+            d="M7.75 2h8.5C19.44 2 22 4.56 22 7.75v8.5C22 19.44 19.44 22 16.25 22h-8.5C4.56 22 2 19.44 2 16.25v-8.5C2 4.56 4.56 2 7.75 2zm0 2C5.68 4 4 5.68 4 7.75v8.5C4 18.32 5.68 20 7.75 20h8.5c2.07 0 3.75-1.68 3.75-3.75v-8.5C20 5.68 18.32 4 16.25 4h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6zm4.75-2.25a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5z"
+          />
+        </svg>
       </div>
-    </main>
-  );
-}
+    </a>
+
+    <a
+      href="https://www.facebook.com/PIVTepic?locale=es_LA"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Facebook"
+      style={{ display: "inline-flex", alignItems: "center" }}
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        style={{ width: "24px", height: "24px" }}
+      >
+        <path
+          fill="#1877F2"
+          d="M24 12a12 12 0 10-13.88 11.85v-8.39H7.08V12h3.04V9.41c0-3 1.79-4.66 4.52-4.66 1.31 0 2.68.23 2.68.23v2.95h-1.51c-1.49 0-1.95.92-1.95 1.87V12h3.32l-.53 3.46h-2.79v8.39A12 12 0 0024 12z"
+        />
+        <path
+          fill="#ffffff"
+          d="M16.65 15.46L17.18 12h-3.32V9.8c0-.95.46-1.87 1.95-1.87h1.51V4.98s-1.37-.23-2.68-.23c-2.73 0-4.52 1.65-4.52 4.66V12H7.08v3.46h3.04v8.39a12.1 12.1 0 003.74 0v-8.39h2.79z"
+        />
+      </svg>
+    </a>
+
+    <a
+      href="/privacidad"
+      style={{ textDecoration: "none", color: "#374151" }}
+    >
+      Aviso de Privacidad
+    </a>
+  </div>
+</footer>
+    
