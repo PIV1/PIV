@@ -263,7 +263,8 @@ export default function TerrenosXalisco() {
           </div>
         </section>
 
-        <footer
+      
+  <footer
   style={{
     marginTop: "72px",
     paddingTop: "28px",
@@ -343,4 +344,3 @@ export default function TerrenosXalisco() {
     </a>
   </div>
 </footer>
-    
