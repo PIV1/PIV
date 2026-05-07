@@ -331,6 +331,10 @@ export default function Home() {
             <a href="/desarrollador-inmobiliario-tepic" style={buttonPrimary}>
               Desarrollador inmobiliario en Xalisco y Nayarit
             </a>
+
+            <a href="/terrenos-en-xalisco" style={buttonSecondary}>
+              Terrenos en Xalisco
+            </a>
           </div>
         </section>
 
