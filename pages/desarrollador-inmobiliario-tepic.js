@@ -19,6 +19,14 @@ export default function SEOPage() {
     border: "none",
   };
 
+  const cardStyle = {
+    backgroundColor: "#f3f6f4",
+    border: "1px solid #dfe7e2",
+    borderRadius: "18px",
+    padding: "24px",
+    marginTop: "20px",
+  };
+
   const socialIconStyle = {
     width: "24px",
     height: "24px",
@@ -28,18 +36,14 @@ export default function SEOPage() {
   return (
     <>
       <Head>
-        <title key="title">
-          Desarrollador inmobiliario en Xalisco y Nayarit | PIV
-        </title>
+        <title>Desarrollador inmobiliario en Xalisco y Nayarit | PIV</title>
         <meta
-          key="description"
           name="description"
           content="PIV desarrolla proyectos inmobiliarios en Xalisco, Tepic y Nayarit, enfocados en inversión, valorización del suelo, terrenos urbanizados y proyectos aptos para crédito INFONAVIT."
         />
         <link
-          key="canonical"
           rel="canonical"
-          href="https://www.piv.one/desarrollador-inmobiliario-tepic"
+          href="https://piv.one/desarrollador-inmobiliario-tepic"
         />
       </Head>
 
@@ -202,23 +206,15 @@ export default function SEOPage() {
             <h2 style={{ fontSize: "32px", marginBottom: "10px" }}>
               Proyectos inmobiliarios en Xalisco y Tepic
             </h2>
-            <div
-              style={{
-                backgroundColor: "#f3f6f4",
-                border: "1px solid #dfe7e2",
-                borderRadius: "18px",
-                padding: "24px",
-                marginTop: "20px",
-              }}
-            >
+            <div style={cardStyle}>
               <p style={{ fontSize: "17px", lineHeight: "1.8", marginTop: 0 }}>
-                Nuestro enfoque se basa en identificar ubicaciones con alto potencial
-                de crecimiento y estructurar desarrollos sólidos que respondan a la
-                demanda real del mercado.
+                Nuestro enfoque se basa en identificar ubicaciones con alto
+                potencial de crecimiento y estructurar desarrollos sólidos que
+                respondan a la demanda real del mercado.
               </p>
               <p style={{ fontSize: "17px", lineHeight: "1.8", marginBottom: 0 }}>
-                Creamos proyectos que buscan generar valor para quienes invierten en
-                Xalisco, Tepic y Nayarit.
+                Creamos proyectos que buscan generar valor para quienes invierten
+                en Xalisco, Tepic y Nayarit.
               </p>
             </div>
           </section>
@@ -228,15 +224,7 @@ export default function SEOPage() {
               Un desarrollador inmobiliario en Xalisco con proyectos aptos para crédito INFONAVIT
             </h2>
 
-            <div
-              style={{
-                backgroundColor: "#f3f6f4",
-                border: "1px solid #dfe7e2",
-                borderRadius: "18px",
-                padding: "24px",
-                marginTop: "20px",
-              }}
-            >
+            <div style={cardStyle}>
               <p style={{ fontSize: "17px", lineHeight: "1.8", marginTop: 0 }}>
                 Como desarrollador inmobiliario en Xalisco, en PIV nos distinguimos
                 por desarrollar proyectos que cumplen con todos los requisitos
@@ -249,9 +237,7 @@ export default function SEOPage() {
                 Nuestro desarrollo Vallegrand cuenta con todos los elementos
                 necesarios para brindar certeza jurídica a nuestros clientes,
                 incluyendo contratos de agua, alineamiento oficial, licencia de uso
-                de suelo y la asignación de números oficiales para cada lote. Esto
-                garantiza que cada propiedad esté debidamente regularizada y lista
-                para su adquisición.
+                de suelo y la asignación de números oficiales para cada lote.
               </p>
 
               <p style={{ fontSize: "17px", lineHeight: "1.8" }}>
@@ -263,8 +249,7 @@ export default function SEOPage() {
               </p>
 
               <p style={{ fontSize: "17px", lineHeight: "1.8", marginBottom: 0 }}>
-                En PIV no solo desarrollamos proyectos inmobiliarios en Xalisco y
-                Tepic, sino que ofrecemos oportunidades de inversión respaldadas por
+                En PIV ofrecemos oportunidades de inversión respaldadas por
                 procesos sólidos, transparencia y cumplimiento normativo, generando
                 confianza tanto para inversionistas como para compradores finales.
               </p>
@@ -275,15 +260,7 @@ export default function SEOPage() {
             <h2 style={{ fontSize: "32px", marginBottom: "10px" }}>
               Inversión en terrenos y lotes en Xalisco, Nayarit
             </h2>
-            <div
-              style={{
-                backgroundColor: "#f3f6f4",
-                border: "1px solid #dfe7e2",
-                borderRadius: "18px",
-                padding: "24px",
-                marginTop: "20px",
-              }}
-            >
+            <div style={cardStyle}>
               <p style={{ fontSize: "17px", lineHeight: "1.8", marginTop: 0 }}>
                 La inversión en terrenos urbanizados en Xalisco representa una de
                 las oportunidades más relevantes del mercado inmobiliario en
@@ -301,15 +278,7 @@ export default function SEOPage() {
             <h2 style={{ fontSize: "32px", marginBottom: "10px" }}>
               Desarrollo inmobiliario con enfoque en valor
             </h2>
-            <div
-              style={{
-                backgroundColor: "#f3f6f4",
-                border: "1px solid #dfe7e2",
-                borderRadius: "18px",
-                padding: "24px",
-                marginTop: "20px",
-              }}
-            >
+            <div style={cardStyle}>
               <p style={{ fontSize: "17px", lineHeight: "1.8", marginTop: 0 }}>
                 Cada proyecto en PIV es diseñado considerando factores urbanos,
                 financieros y comerciales, asegurando su viabilidad y potencial de
@@ -323,15 +292,7 @@ export default function SEOPage() {
           </section>
 
           <section style={{ marginTop: "56px" }}>
-            <div
-              style={{
-                backgroundColor: "#f3f6f4",
-                border: "1px solid #dfe7e2",
-                borderRadius: "18px",
-                padding: "30px",
-                marginTop: "20px",
-              }}
-            >
+            <div style={{ ...cardStyle, padding: "30px" }}>
               <h2 style={{ fontSize: "32px", marginTop: 0, marginBottom: "16px" }}>
                 Proyecto destacado: Vallegrand
               </h2>
@@ -368,15 +329,7 @@ export default function SEOPage() {
           </section>
 
           <section style={{ marginTop: "56px" }}>
-            <div
-              style={{
-                backgroundColor: "#f3f6f4",
-                border: "1px solid #dfe7e2",
-                borderRadius: "18px",
-                padding: "24px",
-                marginTop: "20px",
-              }}
-            >
+            <div style={cardStyle}>
               <p style={{ fontSize: "17px", lineHeight: "1.8", marginTop: 0 }}>
                 Si estás buscando invertir en Xalisco, Tepic o Nayarit y quieres
                 conocer oportunidades inmobiliarias con potencial de valorización,
@@ -425,11 +378,7 @@ export default function SEOPage() {
                       "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)",
                   }}
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    style={{ width: "16px", height: "16px" }}
-                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style={{ width: "16px", height: "16px" }}>
                     <path
                       fill="#ffffff"
                       d="M7.75 2h8.5C19.44 2 22 4.56 22 7.75v8.5C22 19.44 19.44 22 16.25 22h-8.5C4.56 22 2 19.44 2 16.25v-8.5C2 4.56 4.56 2 7.75 2zm0 2C5.68 4 4 5.68 4 7.75v8.5C4 18.32 5.68 20 7.75 20h8.5c2.07 0 3.75-1.68 3.75-3.75v-8.5C20 5.68 18.32 4 16.25 4h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6zm4.75-2.25a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5z"
@@ -445,11 +394,7 @@ export default function SEOPage() {
                 aria-label="Facebook"
                 style={{ display: "inline-flex", alignItems: "center" }}
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  style={socialIconStyle}
-                >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style={socialIconStyle}>
                   <path
                     fill="#1877F2"
                     d="M24 12a12 12 0 10-13.88 11.85v-8.39H7.08V12h3.04V9.41c0-3 1.79-4.66 4.52-4.66 1.31 0 2.68.23 2.68.23v2.95h-1.51c-1.49 0-1.95.92-1.95 1.87V12h3.32l-.53 3.46h-2.79v8.39A12 12 0 0024 12z"
@@ -461,10 +406,7 @@ export default function SEOPage() {
                 </svg>
               </a>
 
-              <a
-                href="/privacidad"
-                style={{ textDecoration: "none", color: "#374151" }}
-              >
+              <a href="/privacidad" style={{ textDecoration: "none", color: "#374151" }}>
                 Aviso de Privacidad
               </a>
             </div>
