@@ -19,6 +19,30 @@ export default function SEOPage() {
     border: "none",
   };
 
+  const darkButtonStyle = {
+    display: "inline-block",
+    marginTop: "20px",
+    marginRight: "12px",
+    backgroundColor: "#1f3d2b",
+    color: "#ffffff",
+    padding: "12px 20px",
+    borderRadius: "999px",
+    textDecoration: "none",
+    fontWeight: "600",
+  };
+
+  const lightButtonStyle = {
+    display: "inline-block",
+    marginTop: "20px",
+    backgroundColor: "#ffffff",
+    color: "#1f3d2b",
+    padding: "12px 20px",
+    borderRadius: "999px",
+    textDecoration: "none",
+    fontWeight: "600",
+    border: "1px solid #cfd8d2",
+  };
+
   const cardStyle = {
     backgroundColor: "#f3f6f4",
     border: "1px solid #dfe7e2",
@@ -304,26 +328,24 @@ export default function SEOPage() {
                 alto potencial de valorización.
               </p>
 
-              <p style={{ fontSize: "17px", lineHeight: "1.8", marginBottom: 0 }}>
+              <p style={{ fontSize: "17px", lineHeight: "1.8" }}>
                 Este proyecto combina ubicación estratégica, planeación urbana,
                 cumplimiento normativo y una propuesta sólida de inversión, ideal
                 tanto para desarrollo habitacional como para inversión patrimonial.
               </p>
 
-              <a
-                href="/#vallegrand"
-                style={{
-                  display: "inline-block",
-                  marginTop: "20px",
-                  backgroundColor: "#1f3d2b",
-                  color: "#ffffff",
-                  padding: "12px 20px",
-                  borderRadius: "999px",
-                  textDecoration: "none",
-                  fontWeight: "600",
-                }}
-              >
+              <p style={{ fontSize: "17px", lineHeight: "1.8", marginBottom: 0 }}>
+                Conoce más sobre los terrenos disponibles dentro de Vallegrand,
+                incluyendo sus medidas, infraestructura y características como
+                fraccionamiento de lotes urbanizados en Xalisco.
+              </p>
+
+              <a href="/#vallegrand" style={darkButtonStyle}>
                 Conocer proyecto Vallegrand
+              </a>
+
+              <a href="/terrenos-en-xalisco" style={lightButtonStyle}>
+                Terrenos en Xalisco
               </a>
             </div>
           </section>
