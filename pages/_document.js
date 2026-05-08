@@ -4,11 +4,10 @@ export default function Document() {
   return (
     <Html lang="es">
       <Head>
-        <link
-          rel="canonical"
-          href="https://www.piv.one/desarrollador-inmobiliario-tepic"
-        />
+        <link rel="icon" href="/logo-piv.png" />
+        <link rel="apple-touch-icon" href="/logo-piv.png" />
       </Head>
+
       <body>
         <Main />
         <NextScript />
