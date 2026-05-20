@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function TerrenosXalisco() {
   const whatsappLink =
-    "https://wa.me/523111169948?text=Hola,%20me%20interesa%20recibir%20informaci%C3%B3n%20sobre%20los%20terrenos%20en%20Xalisco";
+    "https://wa.me/523111169948?text=Hola,%20me%20gustar%C3%ADa%20recibir%20informes%20sobre%20los%20terrenos%20en%20Vallegrand.";
 
   const buttonStyle = {
     display: "inline-flex",
@@ -31,10 +31,12 @@ export default function TerrenosXalisco() {
     <>
       <Head>
         <title>Terrenos en Xalisco, Nayarit | Vallegrand | PIV</title>
+
         <meta
           name="description"
           content="Terrenos en Xalisco, Nayarit dentro de Vallegrand, un desarrollo de lotes urbanizados con servicios ocultos y vialidades en concreto hidráulico."
         />
+
         <link rel="canonical" href="https://piv.one/terrenos-en-xalisco" />
       </Head>
 
@@ -149,7 +151,12 @@ export default function TerrenosXalisco() {
               certeza jurídica.
             </p>
 
-            <a href={whatsappLink} target="_blank" rel="noreferrer" style={buttonStyle}>
+            <a
+              href={whatsappLink}
+              target="_blank"
+              rel="noreferrer"
+              style={buttonStyle}
+            >
               Contactar por WhatsApp
             </a>
           </section>
@@ -160,7 +167,13 @@ export default function TerrenosXalisco() {
             </h2>
 
             <div style={cardStyle}>
-              <p style={{ fontSize: "17px", lineHeight: "1.8", marginTop: 0 }}>
+              <p
+                style={{
+                  fontSize: "17px",
+                  lineHeight: "1.8",
+                  marginTop: 0,
+                }}
+              >
                 Vallegrand cuenta con todos sus servicios ocultos y vialidades en
                 concreto hidráulico, ofreciendo una infraestructura urbana de
                 calidad superior dentro de su categoría.
@@ -172,7 +185,13 @@ export default function TerrenosXalisco() {
                 inversionistas.
               </p>
 
-              <p style={{ fontSize: "17px", lineHeight: "1.8", marginBottom: 0 }}>
+              <p
+                style={{
+                  fontSize: "17px",
+                  lineHeight: "1.8",
+                  marginBottom: 0,
+                }}
+              >
                 El desarrollo se encuentra ubicado estratégicamente en Xalisco,
                 Nayarit, una zona con crecimiento urbano y alta demanda
                 habitacional.
@@ -186,16 +205,34 @@ export default function TerrenosXalisco() {
             </h2>
 
             <div style={cardStyle}>
-              <p style={{ fontSize: "17px", lineHeight: "1.8", marginTop: 0 }}>
+              <p
+                style={{
+                  fontSize: "17px",
+                  lineHeight: "1.8",
+                  marginTop: 0,
+                }}
+              >
                 En Vallegrand contamos con terrenos de:
               </p>
 
-              <ul style={{ fontSize: "17px", lineHeight: "2", color: "#374151" }}>
+              <ul
+                style={{
+                  fontSize: "17px",
+                  lineHeight: "2",
+                  color: "#374151",
+                }}
+              >
                 <li>7 x 15 metros — 105 m²</li>
                 <li>7 x 20 metros — 140 m²</li>
               </ul>
 
-              <p style={{ fontSize: "17px", lineHeight: "1.8", marginBottom: 0 }}>
+              <p
+                style={{
+                  fontSize: "17px",
+                  lineHeight: "1.8",
+                  marginBottom: 0,
+                }}
+              >
                 Estas opciones permiten adaptarse a distintos proyectos
                 habitacionales y necesidades de inversión.
               </p>
@@ -204,7 +241,13 @@ export default function TerrenosXalisco() {
 
           <section style={{ marginTop: "56px" }}>
             <div style={cardStyle}>
-              <h2 style={{ fontSize: "32px", marginTop: 0, marginBottom: "16px" }}>
+              <h2
+                style={{
+                  fontSize: "32px",
+                  marginTop: 0,
+                  marginBottom: "16px",
+                }}
+              >
                 Conoce más sobre Vallegrand
               </h2>
 
@@ -248,13 +291,22 @@ export default function TerrenosXalisco() {
           >
             <div>PIV · Proyectos Inmobiliarios de Valor</div>
 
-            <div style={{ display: "flex", gap: "18px", alignItems: "center" }}>
+            <div
+              style={{
+                display: "flex",
+                gap: "18px",
+                alignItems: "center",
+              }}
+            >
               <a
                 href="https://www.instagram.com/piv.tepic/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Instagram"
-                style={{ display: "inline-flex", alignItems: "center" }}
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                }}
               >
                 <div
                   style={{
@@ -286,12 +338,18 @@ export default function TerrenosXalisco() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Facebook"
-                style={{ display: "inline-flex", alignItems: "center" }}
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                }}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
-                  style={{ width: "24px", height: "24px" }}
+                  style={{
+                    width: "24px",
+                    height: "24px",
+                  }}
                 >
                   <path
                     fill="#1877F2"
@@ -304,7 +362,13 @@ export default function TerrenosXalisco() {
                 </svg>
               </a>
 
-              <a href="/privacidad" style={{ textDecoration: "none", color: "#374151" }}>
+              <a
+                href="/privacidad"
+                style={{
+                  textDecoration: "none",
+                  color: "#374151",
+                }}
+              >
                 Aviso de Privacidad
               </a>
             </div>
