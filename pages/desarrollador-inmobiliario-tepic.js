@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function SEOPage() {
   const whatsappLink =
-    "https://wa.me/523111081887?text=Hola,%20me%20interesa%20recibir%20informaci%C3%B3n%20sobre%20sus%20proyectos%20inmobiliarios";
+    "https://wa.me/523111169948?text=Hola,%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20sus%20desarrollos%20inmobiliarios.";
 
   const buttonStyle = {
     display: "inline-flex",
