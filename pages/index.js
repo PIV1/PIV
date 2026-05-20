@@ -74,7 +74,7 @@ export default function Home() {
   };
 
   const whatsappLink =
-    "https://wa.me/523114669798?text=Hola,%20me%20interesa%20recibir%20informaci%C3%B3n%20sobre%20PIV%20Proyectos%20Inmobiliarios%20de%20Valor";
+    "https://wa.me/523111169948?text=Hola,%20me%20interesa%20recibir%20informaci%C3%B3n%20sobre%20PIV%20Proyectos%20Inmobiliarios%20de%20Valor";
 
   return (
     <main
@@ -361,7 +361,7 @@ export default function Home() {
 
             <div style={cardStyle}>
               <div style={{ fontSize: "14px", color: "#6b7280", marginBottom: "8px" }}>WhatsApp</div>
-              <div style={{ fontSize: "18px", color: "#111827" }}>+52 311 466 9798</div>
+              <div style={{ fontSize: "18px", color: "#111827" }}>+52 311 116 9948</div>
             </div>
 
             <div style={cardStyle}>
