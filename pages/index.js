@@ -74,7 +74,7 @@ export default function Home() {
   };
 
   const whatsappLink =
-    "https://wa.me/523111081887?text=Hola,%20me%20interesa%20recibir%20informaci%C3%B3n%20sobre%20sus%20proyectos%20inmobiliarios";
+    "https://wa.me/523114669798?text=Hola,%20me%20interesa%20recibir%20informaci%C3%B3n%20sobre%20PIV%20Proyectos%20Inmobiliarios%20de%20Valor";
 
   return (
     <main
@@ -361,7 +361,7 @@ export default function Home() {
 
             <div style={cardStyle}>
               <div style={{ fontSize: "14px", color: "#6b7280", marginBottom: "8px" }}>WhatsApp</div>
-              <div style={{ fontSize: "18px", color: "#111827" }}>+52 311 108 1887</div>
+              <div style={{ fontSize: "18px", color: "#111827" }}>+52 311 466 9798</div>
             </div>
 
             <div style={cardStyle}>
@@ -379,6 +379,22 @@ export default function Home() {
           <a href={whatsappLink} target="_blank" rel="noreferrer" style={whatsappButtonStyle}>
             Contactar por WhatsApp
           </a>
+
+          <div style={{ ...cardStyle, padding: "0", overflow: "hidden" }}>
+            <iframe
+              title="Ubicación PIV Proyectos Inmobiliarios de Valor"
+              src="https://www.google.com/maps?q=Palomas%20196,%20Las%20Palomas,%2063792%20Tepic,%20Nayarit&output=embed"
+              width="100%"
+              height="320"
+              style={{
+                border: "0",
+                display: "block",
+              }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
         </section>
 
         <footer
