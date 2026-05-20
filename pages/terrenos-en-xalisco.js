@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function TerrenosXalisco() {
   const whatsappLink =
-    "https://wa.me/523111081887?text=Hola,%20me%20interesa%20recibir%20informaci%C3%B3n%20sobre%20los%20terrenos%20en%20Xalisco";
+    "https://wa.me/523111169948?text=Hola,%20me%20interesa%20recibir%20informaci%C3%B3n%20sobre%20los%20terrenos%20en%20Xalisco";
 
   const buttonStyle = {
     display: "inline-flex",
