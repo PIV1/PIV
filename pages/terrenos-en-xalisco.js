@@ -299,7 +299,7 @@ export default function TerrenosXalisco() {
               }}
             >
               <a
-                href="https://www.instagram.com/piv.tepic/"
+                href="https://www.instagram.com/pivproyectosinmobiliarios/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Instagram"
