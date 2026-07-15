@@ -415,7 +415,7 @@ export default function Home() {
 
           <div style={{ display: "flex", gap: "18px", alignItems: "center" }}>
             <a
-              href="https://www.instagram.com/piv.tepic/"
+              href="https://www.instagram.com/pivproyectosinmobiliarios/"
               target="_blank"
               rel="noreferrer"
               aria-label="Instagram"
